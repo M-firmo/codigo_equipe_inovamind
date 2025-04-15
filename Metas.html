@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metas 2025 - To Do List</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h2>Organize suas metas</h2>
+    <div id="tamanho">
+
+        <div id="main">
+
+            <h1> To-Do List de Metas 2025</h1>
+
+            <!-- Formulário para adicionar metas -->
+
+            <form>
+                <input placeholder="Adicione uma tarefa (Ex: Segunda-feira: Treino de pernas)" type="text" id="input">
+                <button id="button" onclick="addItem()" type="button">+</button>
+            </form>
+            
+            <!-- Algumas metas predefinidas pela nossa equipe -->
+
+            <div id="Conteudo">
+                <ul id="Lista">
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox1">
+                            <label for="checkbox1">Aprender inglês</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox2">
+                            <label for="checkbox2">Ir para academia regularmente</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox3">
+                            <label for="checkbox3">Organizar minha rotina</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox4">
+                            <label for="checkbox4">Fazer novas amizades</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox5">
+                            <label for="checkbox5">Melhorar a alimentação</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox6">
+                            <label for="checkbox6">Fazer cursos</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox7">
+                            <label for="checkbox7">Adotar um cachorro de rua</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

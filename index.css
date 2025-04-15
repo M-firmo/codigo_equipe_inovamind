@@ -1,0 +1,165 @@
+
+body {
+    background-color: #000000; 
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff; 
+    margin: 0;
+}
+
+
+h2 {
+    text-align: center;
+    color: #ffffff; 
+}
+
+
+#main {
+    background-color: #716634; 
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+h3 {
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff; 
+    margin-bottom: 15px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#input {
+    background-color: #FEFAE0;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #000000; 
+    width: calc(100% - 70px);
+}
+
+#input::placeholder {
+    color: #6a6b69;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#button {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff; 
+    color: #000000; 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+#button:hover {
+    background-color: #313131; 
+}
+
+
+.list-container {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #898d85;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #898d85; 
+    margin: 15px auto;
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+li:hover {
+    background-color: #a0a0a0; 
+}
+
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-container input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.task-container label {
+    flex: 1;
+    margin-left: 15px;
+    color: #ffffff; 
+    font-size: 16px;
+}
+
+#icon {
+    background-color: black; 
+    border: none;
+    color: #ffffff; 
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#icon:hover {
+    color: #414141; 
+    transform: scale(1.1);
+}
+
+
+#Concluidas li {
+    background-color: #898d85; 
+    color: #333333; 
+}
+
+#Concluidas li label {
+    text-decoration: line-through;
+    color: #666666; 
+}
+
+.description {
+    font-size: 14px;
+    color: #e0e0e0; 
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+}
+ #editar{
+    background-color: #575555;
+    border-radius: 15px;
+ }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Treinos - To Do List</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h2>Planeje sua Semana de Treinos</h2>
+    <div id="tamanho">
+
+        <div id="main">
+
+            <h1> To-Do List de Treinos</h1>
+
+            <!-- Formulário para adicionar outros treinos -->
+
+            <form>
+                <input placeholder="Adicione uma tarefa (Ex: Segunda-feira: Treino de pernas)" type="text" id="input">
+                <button id="button" onclick="addItem()" type="button">+</button>
+            </form>
+
+            <!-- Dias de treinos que podem ser seguidos por úsuarios -->
+
+            <div id="Conteudo">
+                <ul id="Lista">
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox1">
+                            <label for="checkbox1">Segunda-feira: Treino de Pernas</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox2">
+                            <label for="checkbox2">Terça-feira: Treino de Peito</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox3">
+                            <label for="checkbox3">Quarta-feira: Treino de Costas</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox4">
+                            <label for="checkbox4">Quinta-feira: Treino de Ombros</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox5">
+                            <label for="checkbox5">Sexta-feira: Treino de Braços</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox6">
+                            <label for="checkbox6">Sábado: Cardio</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task-container">
+                            <input type="checkbox" id="checkbox7">
+                            <label for="checkbox7">Domingo: Descanso</label>
+                            <button id="icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

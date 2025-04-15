@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <h2>Crie sua própria To-Do List</h2>
+    <div id="tamanho">
+
+        <div id="main">
+
+            <h1>To-Do List</h1>
+
+            <!-- Formulário para adicionar tarefas -->
+            <form>
+                <input placeholder="Adicione suas tarefas" type="text" id="input">
+                <button id="button" onclick="addItem()" type="button">+</button>
+            </form>
+
+            <!-- Lista de tarefas pendentes -->
+            <div id="Conteudo">
+                <h3>Tarefas Pendentes</h3>
+                <ul id="Lista"></ul>
+            </div>
+
+            <!-- Lista de tarefas concluídas -->
+            <div id="Concluidas">
+                <h3>Tarefas Concluídas</h3>
+                <ul id="ListaConcluidas"></ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
